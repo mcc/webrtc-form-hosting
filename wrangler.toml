@@ -4,8 +4,9 @@ compatibility_date = "2025-03-20"
 # Bind KV namespace
 [[kv_namespaces]]
 binding = "SIGNAL_KV"
-id = "YOUR_KV_NAMESPACE_ID" # Replace with actual KV namespace ID from dashboard
+id = "1ab7ca6546ff444195215a013928f661" # Replace with your KV namespace ID
 
-# Pages configuration (handled by Cloudflare Pages, but included for clarity)
+# Environment variables for Cloudflare Calls API
 [vars]
-# Add any environment variables if needed
+TURN_KEY_API_TOKEN = "aec4d1a50e9576d79af9a6d2e8e3881e89301d97ec8805ec075f029f96731cfa"
+TURN_KEY_ID = "096b68dc56186d7d2da1102df34a8631"
