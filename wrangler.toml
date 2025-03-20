@@ -1,0 +1,11 @@
+name = "webrtc-form-hosting"
+compatibility_date = "2025-03-20"
+
+# Bind KV namespace
+[[kv_namespaces]]
+binding = "SIGNAL_KV"
+id = "YOUR_KV_NAMESPACE_ID" # Replace with actual KV namespace ID from dashboard
+
+# Pages configuration (handled by Cloudflare Pages, but included for clarity)
+[vars]
+# Add any environment variables if needed

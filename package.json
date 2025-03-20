@@ -1,0 +1,13 @@
+{
+    "name": "webrtc-form-hosting",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "wrangler pages dev public --kv=SIGNAL_KV"
+    },
+    "devDependencies": {
+        "wrangler": "^3.14.0"
+    },
+    "dependencies": {
+        "webrtc-form-hosting": "file:"
+    }
+}

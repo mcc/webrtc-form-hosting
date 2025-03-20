@@ -1,0 +1,3 @@
+body { font-family: Arial, sans-serif; padding: 20px; }
+#host, #submitter { margin: 20px 0; }
+input, textarea { display: block; margin: 10px 0; }

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebRTC Form Hosting</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <h1>WebRTC Form Hosting</h1>
+  
+  <div id="host">
+    <h2>Host a Form</h2>
+    <input id="roomId" placeholder="Enter Room ID" />
+    <button onclick="startHosting()">Start Hosting</button>
+    <div id="receivedData"></div>
+  </div>
+  
+  <div id="submitter">
+    <h2>Submit Form</h2>
+    <input id="submitRoomId" placeholder="Enter Room ID" />
+    <textarea id="formData" placeholder="Enter form data"></textarea>
+    <button onclick="submitForm()">Submit</button>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>
